@@ -1,0 +1,163 @@
+{
+  "appDisplayName": "WBS Planner",
+  "description": "A productivity app for creating work breakdown structures and entering weekly or monthly resource hours in a grid.",
+  "buildPath": "./dist",
+  "buildEntryPoint": "index.html",
+  "logoPath": "Default",
+  "localAppUrl": "http://localhost:5173/",
+  "appId": "fb0cd522-fc47-4296-9002-9a1d1ec69ce1",
+  "tags": {
+    "planId": "",
+    "projectId": "75332394-44d3-4691-9879-bd3d9ee6374d"
+  },
+  "connectionReferences": {
+    "81bd4810-a877-42cf-a4f8-c43d85979ff3": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_a365mcpservers",
+      "displayName": "Microsoft MCP Servers",
+      "dataSources": [
+        "a365mcpservers"
+      ],
+      "dataSets": {}
+    },
+    "2de36e3f-f525-4cb1-abcf-aa43f67fc000": {
+      "id": "/providers/Microsoft.PowerApps/apis/shared_office365users",
+      "displayName": "Office 365 Users",
+      "dataSources": [
+        "office365users"
+      ],
+      "dataSets": {}
+    }
+  },
+  "databaseReferences": {
+    "default.cds": {
+      "state": "Configured",
+      "instanceUrl": "https://org1d7c5b9e.crm.dynamics.com",
+      "webApiVersion": "v9.0",
+      "dataSources": {
+        "contoso_resource": {
+          "entitySetName": "contoso_resources",
+          "logicalName": "contoso_resource",
+          "isHidden": false
+        },
+        "contoso_wbsdependency": {
+          "entitySetName": "contoso_wbsdependencies",
+          "logicalName": "contoso_wbsdependency",
+          "isHidden": false
+        },
+        "contoso_wbsestimate": {
+          "entitySetName": "contoso_wbsestimates",
+          "logicalName": "contoso_wbsestimate",
+          "isHidden": false
+        },
+        "contoso_risk": {
+          "entitySetName": "contoso_risks",
+          "logicalName": "contoso_risk",
+          "isHidden": false
+        },
+        "contoso_resourcehourentry": {
+          "entitySetName": "contoso_resourcehourentries",
+          "logicalName": "contoso_resourcehourentry",
+          "isHidden": false
+        },
+        "contoso_comment": {
+          "entitySetName": "contoso_comments",
+          "logicalName": "contoso_comment",
+          "isHidden": false
+        },
+        "contoso_laborcategory": {
+          "entitySetName": "contoso_laborcategories",
+          "logicalName": "contoso_laborcategory",
+          "isHidden": false
+        },
+        "contoso_solutionareaskillsets": {
+          "entitySetName": "contoso_solutionareaskillsetses",
+          "logicalName": "contoso_solutionareaskillsets",
+          "isHidden": false
+        },
+        "contoso_solutionarea": {
+          "entitySetName": "contoso_solutionareas",
+          "logicalName": "contoso_solutionarea",
+          "isHidden": false
+        },
+        "contoso_level1skillsetnames": {
+          "entitySetName": "contoso_level1skillsetnameses",
+          "logicalName": "contoso_level1skillsetnames",
+          "isHidden": false
+        },
+        "contoso_level2skillsetnames": {
+          "entitySetName": "contoso_level2skillsetnameses",
+          "logicalName": "contoso_level2skillsetnames",
+          "isHidden": false
+        },
+        "contoso_staffingplanresources": {
+          "entitySetName": "contoso_staffingplanresourceses",
+          "logicalName": "contoso_staffingplanresources",
+          "isHidden": false
+        },
+        "contoso_resourcehours": {
+          "entitySetName": "contoso_resourcehourses",
+          "logicalName": "contoso_resourcehours",
+          "isHidden": false
+        },
+        "contoso_project": {
+          "entitySetName": "contoso_projects",
+          "logicalName": "contoso_project",
+          "isHidden": false
+        },
+        "contoso_timeperiod": {
+          "entitySetName": "contoso_timeperiods",
+          "logicalName": "contoso_timeperiod",
+          "isHidden": false
+        },
+        "contoso_opportunity": {
+          "entitySetName": "contoso_opportunities",
+          "logicalName": "contoso_opportunity",
+          "isHidden": false
+        },
+        "contoso_wbsitem": {
+          "entitySetName": "contoso_wbsitems",
+          "logicalName": "contoso_wbsitem",
+          "isHidden": false
+        },
+        "contoso_resourceskillsets": {
+          "entitySetName": "contoso_resourceskillsetses",
+          "logicalName": "contoso_resourceskillsets",
+          "isHidden": false
+        },
+        "contoso_assignment": {
+          "entitySetName": "contoso_assignments",
+          "logicalName": "contoso_assignment",
+          "isHidden": false
+        },
+        "application": {
+          "entitySetName": "applications",
+          "logicalName": "application",
+          "isHidden": false
+        },
+        "businessunit": {
+          "entitySetName": "businessunits",
+          "logicalName": "businessunit",
+          "isHidden": false
+        },
+        "calendar": {
+          "entitySetName": "calendars",
+          "logicalName": "calendar",
+          "isHidden": false
+        },
+        "transactioncurrency": {
+          "entitySetName": "transactioncurrencies",
+          "logicalName": "transactioncurrency",
+          "isHidden": false
+        },
+        "organization": {
+          "entitySetName": "organizations",
+          "logicalName": "organization",
+          "isHidden": false
+        }
+      },
+      "version": "v9.0",
+      "environmentVariableName": ""
+    }
+  },
+  "version": "1.0"
+}
